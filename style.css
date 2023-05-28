@@ -27,20 +27,15 @@ body {
 }
 
 .about-center {
-  width: 75vw;
-  gap: 3rem;
+  width: 85vw;
   margin: 0 auto;
   display: grid;
   justify-content: center;
-  grid-template-columns: 1fr 1fr;
-  grid-auto-rows: min-content;
-}
-.about-img {
-  aspect-ratio: 1;
-  max-width: 350px;
+  grid-template-columns: repeat(2, 1fr);
 }
 
-.about-img img {
+.about-img {
+  width: 25rem;
   border-radius: 8px;
   overflow: hidden;
 }
@@ -68,7 +63,7 @@ body {
 }
 
 .tab-btn:hover {
-  background-color: #fff;
+  background-color: #dbbcbc;
 }
 
 .tab-btn.active {
