@@ -34,15 +34,14 @@ body {
   grid-template-columns: 1fr 2fr;
 }
 .about-img {
-  width: 100%;
   display: flex;
   justify-content: flex-end;
+  width: 300px;
 }
 
 .about-img img {
   border-radius: 8px;
   overflow: hidden;
-  width: 300px;
 }
 
 .about {
