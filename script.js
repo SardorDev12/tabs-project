@@ -9,10 +9,10 @@ aboutSection.addEventListener("click", (e) => {
       btn.classList.remove("active");
       e.target.classList.add("active");
     });
+    articles.forEach((article) => {
+      article.classList.remove("active");
+    });
+    const activeEl = document.getElementById(id);
+    activeEl.classList.add("active");
   }
-  articles.forEach((article) => {
-    article.classList.remove("active");
-  });
-  const activeEl = document.getElementById(id);
-  activeEl.classList.add("active");
 });

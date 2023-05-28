@@ -35,10 +35,8 @@ body {
   grid-template-columns: 1fr 1fr;
 }
 .about-img {
-  display: flex;
-  justify-content: flex-end;
-  width: 300px;
   aspect-ratio: 1;
+  max-width: 350px;
 }
 
 .about-img img {
