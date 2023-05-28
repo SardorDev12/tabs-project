@@ -102,27 +102,16 @@ body {
 
   .about-center {
     width: 95vw;
-  }
-  .about-center {
-    gap: 1rem;
-    grid-template-columns: none;
+    display: block;
   }
 
   .about-img {
-    display: none;
+    margin-bottom: 1rem;
   }
 }
 
 @media screen and (max-width: 320px) {
   .title {
     font-size: 1rem;
-  }
-  .about-img {
-    margin: 1rem auto;
-    width: 200px;
-    height: 200px;
-  }
-  .about-center {
-    display: block;
   }
 }
