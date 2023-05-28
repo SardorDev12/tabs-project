@@ -107,6 +107,10 @@ body {
     gap: 1rem;
     grid-template-columns: none;
   }
+
+  .about-img {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 320px) {
